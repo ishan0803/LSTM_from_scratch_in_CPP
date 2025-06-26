@@ -13,7 +13,7 @@ This project implements a robust, end-to-end stock price prediction system using
   - Fetches historical stock data using yfinance
   - Preprocesses and exports data to CSV
   - Optionally triggers the C++ predictor
-- **C++ (`AI_CP_Final.cpp`):**
+- **C++ (`Lstm_predictor.cpp`):**
   - Implements LSTM neural network from scratch
   - Handles training and prediction
   - Outputs results for analysis
