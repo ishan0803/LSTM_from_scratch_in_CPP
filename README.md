@@ -43,12 +43,6 @@ This project implements a robust, end-to-end stock price prediction system using
 2. Enter the stock ticker and duration (e.g., 5y, 1y, 6mo)
 3. The script downloads data, creates a CSV, and can run the C++ predictor if desired
 
-## Why This Project Stands Out
-- Demonstrates the ability to build production-grade ML systems from scratch
-- Shows expertise in both software engineering and applied machine learning
-- Delivers quantifiable results on real financial data
-- Modular and extensible for further research or deployment
-
 ## Dependencies
 - **Python:** yfinance, pandas
 - **C++:** STL, C++11 or higher
