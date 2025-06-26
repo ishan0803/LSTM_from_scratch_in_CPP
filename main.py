@@ -28,6 +28,6 @@ print(f"CSV file '{csv_filename}' created successfully.")
 run_predictor = input("Run predictor with this CSV? (y/n): ").strip().lower()
 if run_predictor == 'y':
     try:
-        subprocess.run(["./a", csv_filename])
+        subprocess.run(["./Lstm_predictor.exe", csv_filename])
     except FileNotFoundError:
         print("Predictor binary not found. Make sure it's compiled.")
